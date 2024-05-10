@@ -1,0 +1,30 @@
+{
+  "name": "videosdk-fgservice-config-plugins",
+  "version": "0.0.14",
+  "description": "My new module",
+  "main": "build/withForegroundService.js",
+  "types": "build/withForegroundService.d.ts",
+  "scripts": {
+    "build": "expo-module build",
+    "clean": "expo-module clean",
+    "lint": "expo-module lint",
+    "test": "expo-module test",
+    "prepare": "expo-module prepare",
+    "prepublishOnly": "expo-module prepublishOnly",
+    "expo-module": "expo-module"
+  },
+  "keywords": [
+    "react-native",
+    "expo"
+  ],
+  "peerDependencies": {
+    "expo": "^50"
+  },
+  "devDependencies": {
+    "expo-module-scripts": "^3.5.1"
+  },
+  "upstreamPackage": "@videosdk.live/react-native-foreground-service",
+  "dependencies": {
+    "expo-build-properties": "~0.12.1"
+  }
+}
